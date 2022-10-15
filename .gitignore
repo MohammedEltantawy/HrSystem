@@ -1,0 +1,5 @@
+/.vs
+/HrSystem.Data/obj
+/HrSystem.Infrastructure/obj
+/HrSystem.Services/obj
+/HrSystemApi/obj

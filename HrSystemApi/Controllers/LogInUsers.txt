@@ -1,0 +1,4 @@
+﻿ Manager	 	Manager@gmail.com	 password123@	 
+ Director	 	Director@gmail.com	 password123@	 
+ Officer	 	Officer@gmail.com	 password123@	
+ 
