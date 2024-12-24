@@ -552,7 +552,10 @@
       },
       "HrSystem.Data/1.0.0": {
         "runtime": {
-          "HrSystem.Data.dll": {}
+          "HrSystem.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "HrSystem.Infrastructure/1.0.0": {
@@ -566,7 +569,10 @@
           "System.Linq.Dynamic.Core": "1.2.20"
         },
         "runtime": {
-          "HrSystem.Infrastructure.dll": {}
+          "HrSystem.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

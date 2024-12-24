@@ -87,8 +87,10 @@ static void BuildApp(WebApplicationBuilder builder)
     var app = builder.Build();
 
     // Configure the HTTP request pipeline.
-
-    app.UseHttpsRedirection();
+    if (!app.Environment.IsDevelopment())
+    {
+        app.UseHttpsRedirection();
+    }
 
     app.UseAuthentication();
     app.UseAuthorization();
@@ -120,4 +122,3 @@ static void BuildApp(WebApplicationBuilder builder)
 WebApplicationBuilder builder = BuildApi(args);
 
 BuildApp(builder);
-

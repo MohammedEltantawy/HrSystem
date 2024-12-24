@@ -583,7 +583,10 @@
       },
       "HrSystem.Data/1.0.0": {
         "runtime": {
-          "HrSystem.Data.dll": {}
+          "HrSystem.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
